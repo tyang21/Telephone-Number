@@ -1,5 +1,9 @@
 import java.util.Scanner;
-
+/**
+ * Telephone Number HW
+ * @author Tyler Yang
+ * Period 7
+ */
 public class TelephoneNumber {
 
 	public static void main(String[] args) 
@@ -12,7 +16,7 @@ public class TelephoneNumber {
 		String phone = in.next();
 		in.nextLine();
 		
-		String first = phone.substring(0, 3);
+		String first = phone.substring(0,3);
 		String second = phone.substring(3,6);
 		String last = phone.substring(6,10);
 		
